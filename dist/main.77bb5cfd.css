@@ -1,0 +1,73 @@
+.create_account {
+  background-color: #4b4b4b;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border-width: 0px;
+  color: white;
+  width: 7rem;
+  float: right;
+  margin: 1rem;
+}
+
+body {
+  background-image: url(/blog-listing.56b2c72b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Risque", cursive;
+  font-size: 2.8rem;
+}
+
+.login {
+  padding-top: 4rem;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 8rem;
+}
+.login input {
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0);
+  width: 16rem;
+  border-width: 0.1 0.5rem;
+  border-radius: 5rem;
+  height: 1.5rem;
+  display: block;
+  margin-top: 3rem;
+}
+.login input::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.login button {
+  color: white;
+  background-color: #c4c4c4;
+  height: 2rem;
+  width: 8rem;
+  border-width: 0;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+
+.forgot_password {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  height: 2rem;
+  position: relative;
+  top: 14rem;
+  right: 2rem;
+}
+.forgot_password button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 0.5rem;
+  height: 1.5rem;
+  border-color: black;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
